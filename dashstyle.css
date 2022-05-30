@@ -36,7 +36,7 @@ ul {
 #sidebar ul {
     margin-left: 20px;
     align-self: start;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     font-weight: bold;
 }
 
@@ -64,24 +64,28 @@ ul {
 
 #projects>div {
     flex: 1;
-    background-color: antiquewhite;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
     grid-auto-rows: 300px;
     gap: 30px;
     overflow-y: auto;
-
-
 }
 
 .card {
+    background-color: white;
     display: flex;
     flex-direction: column;
-    padding: 20px;
+    border-left: 10px solid orange;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(115, 115, 115, 0.5);
+    padding: 50px 40px;
 }
 
 .card p {
     flex: 1;
+    color: grey;
+    margin-top: 5px;
+    font-size: 1.25rem;
 }
 
 .card ul {
