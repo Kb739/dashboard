@@ -132,6 +132,11 @@ h5 {
 .card ul {
     display: flex;
     margin-left: auto;
+    gap: 30px;
+}
+
+.card ul img {
+    max-width: 30px;
 }
 
 #announces,
